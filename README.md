@@ -8,7 +8,7 @@
 
 ## مبانی
 
-- [سلام دنیا!](https://github.com/BDadmehr0/Learn-C/blob/main/%E2%80%8C%E2%80%8CBasics/Hello_World.md)
+- [سلام دنیا!](https://github.com/BDadmehr0/Learn-C/blob/main/%E2%80%8C%E2%80%8CBasics/Hello,_World!.md)
 - متغیرها و انواع
 - آرایه‌ها
 - آرایه‌های چندبعدی
