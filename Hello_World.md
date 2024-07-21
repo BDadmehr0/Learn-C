@@ -16,9 +16,9 @@ To add the ability to run the `printf` command to our program, we must add the f
 
 ```c
 #include <stdio.h>
+```
 
 The second part of the code is the actual code that we are going to write. The first code that will run will always reside in the main function.
-```
 
 ```c
 
