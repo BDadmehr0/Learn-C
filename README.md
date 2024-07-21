@@ -1,4 +1,4 @@
-<p align="center">
+<p align="right">
   <img src="https://github.com/BDadmehr0/Learn-C/blob/main/C_Programming_Language.svg.png" alt="c-language-logo">
 </p>
 
