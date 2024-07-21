@@ -1,1 +1,1 @@
-Learn C programming language with [learn-c.org](https://www.learn-c.org/en/) is project create markdown and translate to persian for Iranian
+یادگیری زبان برنامه نویسی C با سایت (https://www.learn-c.org/en)[learn-c.org] تبدیل سایت به مارک‌داون و ترجمه آن به فارسی برای
