@@ -8,34 +8,30 @@
 
 زبان C یک زبان کامپایل‌شونده است، به این معنی که برای اجرای آن، کامپایلر (برای مثال، GCC یا ویژوال استودیو) باید کدی را که نوشته‌ایم پردازش کند و سپس یک فایل اجرایی ایجاد کند. این فایل سپس قابل اجراست و کاری را که ما برای برنامه در نظر گرفته‌ایم انجام خواهد داد.
 
-## Our First Program
+## اولین برنامه ما
 
-Every C program uses libraries, which give the ability to execute necessary functions. For example, the most basic function called `printf`, which prints to the screen, is defined in the `stdio.h` header file.
+هر برنامه C از کتابخانه‌ها استفاده می‌کند که امکان اجرای توابع ضروری را فراهم می‌سازند. برای مثال، پایه‌ای‌ترین تابع به نام `printf`، که برای چاپ روی صفحه به کار می‌رود، در فایل هدر `stdio.h` تعریف شده است.
 
-To add the ability to run the `printf` command to our program, we must add the following include directive to the first line of the code:
-
+برای افزودن قابلیت اجرای دستور printf به برنامه‌مان، باید دستور include زیر را به اولین خط کد اضافه کنیم:
 ```c
 #include <stdio.h>
 ```
 
-The second part of the code is the actual code that we are going to write. The first code that will run will always reside in the main function.
-
+بخش دوم کد، کدی است که واقعاً می‌خواهیم بنویسیم. اولین کدی که اجرا خواهد شد، همیشه در تابع main قرار دارد.
 ```c
 
 int main() {
-  // ... our code goes here
+  // ... کد ما در اینجا قرار می‌گیرد
 }
 ```
 
-The int keyword indicates that the function main will return an integer - a simple number. The number returned by the function indicates whether the program we wrote worked correctly. If we want to say that our code ran successfully, we will return the number 0. A number greater than 0 will mean that the program we wrote failed.
+کلیدواژه `int` نشان می‌دهد که تابع `main` عدد صحیحی را بازخواهد گرداند. عدد بازگشتی توسط تابع نشان می‌دهد که آیا برنامه‌ای که نوشتیم به درستی کار کرده است یا خیر. اگر بخواهیم بگوییم که کد ما به درستی اجرا شده است، عدد ۰ را برمی‌گردانیم. عددی بزرگ‌تر از ۰ به معنی این است که برنامه‌ای که نوشته‌ایم شکست خورده است.
 
-For this tutorial, we will return 0 to indicate that our program was successful:
-
+برای این آموزش، ما عدد ۰ را برمی‌گردانیم تا نشان دهیم که برنامه‌یمان با موفقیت اجرا شده است:
 ```c
 
 return 0;
 ```
+توجه داشته باشید که هر بیانیه در C باید با یک نقطه‌ویرگول به پایان برسد تا کامپایلر بداند که یک بیانیه جدید آغاز شده است.
 
-Notice that every statement in C must end with a semicolon so that the compiler knows that a new statement has started.
-
-Last but not least, we will need to call the function printf to print our sentence.
+و در پایان، باید تابع `printf` را برای چاپ جمله‌مان فراخوانی کنیم.
