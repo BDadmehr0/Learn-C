@@ -38,4 +38,15 @@ return 0;
 
 ## تمرین
 
-[برنامه ای بنویسید که "Hello, World!" را چاپ کند](https://github.com/BDadmehr0/Learn-C/blob/main/exercises/Hello_World.c)
+کد زیر را طوری تغییر دهید که خروجی آن "Hello, World!" باشد.
+
+```c
+#include <stdio.h>
+
+int main() {
+  printf("Goodbye, World!");
+  return 0;
+}
+```
+
+- [جواب تمرین](https://github.com/BDadmehr0/Learn-C/blob/main/exercises/Hello_World.c)
