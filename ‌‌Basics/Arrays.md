@@ -49,3 +49,5 @@ int main() {
   return 0;
 }
 ```
+
+- [جواب تمرین](https://github.com/BDadmehr0/Learn-C/blob/main/exercises/Multidimensional_Arrays.c)
