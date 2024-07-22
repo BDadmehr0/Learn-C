@@ -10,7 +10,7 @@
 
 - [سلام دنیا!](https://github.com/BDadmehr0/Learn-C/blob/main/%E2%80%8C%E2%80%8CBasics/Hello,_World!.md)
 - [متغیرها و انواع](https://github.com/BDadmehr0/Learn-C/blob/main/%E2%80%8C%E2%80%8CBasics/Variables_and_Types.md)
-- آرایه‌ها
+- [آرایه‌ها](https://github.com/BDadmehr0/Learn-C/blob/main/%E2%80%8C%E2%80%8CBasics/Arrays.md)
 - آرایه‌های چندبعدی
 - شرایط
 - رشته‌ها
