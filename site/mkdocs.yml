@@ -1,0 +1,17 @@
+site_name: Learn-C
+
+site_url: http://127.0.0.1:8000/
+
+plugins:
+  - search
+
+nav:
+  - خانه: index.md
+  - آموزش ها: 
+    - اولین برنامه: tutorials/hello_world.md
+    - انواع داده و متغیر ها: tutorials/variables_and_types.md
+    - آرایه ها: tutorials/arrays.md
+
+theme:
+  name: null
+  custom_dir: 'cinder-farsi'
