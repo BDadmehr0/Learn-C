@@ -39,4 +39,4 @@
 
 - [ ] تبدیل محتوای آموزشی سایت به markdown
 - [ ] ترجمه markdown به زبان فارسی
-- [ ] ساخت SSG ترجیها (Mkdocs, Pelican)
+- [x] ساخت SSG ترجیها (Mkdocs, Pelican)
