@@ -116,6 +116,7 @@ int val = a[2][3];
 		}
 
 		return 0;
-	}```
+	}
+```
 
 - [جواب تمرین](https://github.com/BDadmehr0/Learn-C/blob/main/site/docs/exercises/multidimensional_arrays.c)
